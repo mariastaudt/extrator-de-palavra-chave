@@ -20,7 +20,7 @@ function ordenaPalavra(p1, p2){
     }
 
      console.log(ordenadas);
-     return palavras;
+     return ordenadas.slice(0,10)
     }
     
     function contaFrequencia(palavras){
